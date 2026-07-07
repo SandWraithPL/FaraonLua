@@ -44,8 +44,8 @@ Pobierz i zainstaluj LOVE2D ze strony oficjalnej: [https://love2d.org/](https://
 Sklonuj repozytorium lub pobierz pliki ZIP:
 
 ```bash
-git clone https://github.com/twoj-uzytkownik/gra-lua-faraon.git
-cd gra-lua-faraon
+git clone https://github.com/SandWraithPL/FaraonLua.git
+cd FaraonLua
 ```
 
 ### Krok 3: Uruchom grę
@@ -56,7 +56,7 @@ cd gra-lua-faraon
 
 **Linux:**
 ```bash
-love gra-lua-faraon
+love FaraonLua
 ```
 
 **macOS:**
@@ -89,7 +89,7 @@ love gra-lua-faraon
 ## 📁 Struktura Projektu
 
 ```
-gra-lua-faraon/
+FaraonLua/
 ├── main.lua          # Główna pętla gry, zarządzanie stanami
 ├── player.lua        # Klasa gracza - ruch, skok, atak
 ├── enemy.lua         # Klasa wroga - patrolowanie
